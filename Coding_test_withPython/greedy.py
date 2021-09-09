@@ -94,8 +94,8 @@ def exam_3_5():
 
 if __name__ == "__main__":
     print('Greedy')
-    # print('exam_3_1: ', exam_3_1())
-    # print('exam_3_2: ', exam_3_2_1())
-    # print('exam_3_2: ', exam_3_2_2())
-    # print('exam_3_3: ', exam_3_3())
-    # print('exam_3_4: ', exam_3_5())
+    print('exam_3_1: ', exam_3_1())
+    print('exam_3_2: ', exam_3_2_1())
+    print('exam_3_2: ', exam_3_2_2())
+    print('exam_3_3: ', exam_3_3())
+    print('exam_3_4: ', exam_3_5())

@@ -57,16 +57,16 @@ def exam_4_3():
 
 # Example 4-3. 게임 개발
 def exam_4_4():
-    # n, m = map(int, input("input N M: "))
-    # a, b, d = map(int, input("input A B d: ")) # 좌표(행, 열), 바라보는 방향
-    # ground = []
-    # for i in range(n):
-    #     ground.append(map(int, input("input Map: ")))
+    n, m = map(int, input("input N M: "))
+    a, b, d = map(int, input("input A B d: ")) # 좌표(행, 열), 바라보는 방향
+    ground = []
+    for i in range(n):
+        ground.append(map(int, input("input Map: ")))
 
     # 예시
-    n, m = 4, 4
-    a, b, d = 1, 1, 0
-    ground = [[1, 1, 1, 1], [1, 0, 0, 1], [1, 1, 0, 1], [1, 1, 1, 1]]
+    # n, m = 4, 4
+    # a, b, d = 1, 1, 0
+    # ground = [[1, 1, 1, 1], [1, 0, 0, 1], [1, 1, 0, 1], [1, 1, 1, 1]]
 
     # 북, 동, 남, 서 idx에 왼쪽 회전하면 이동해야하는 step 넣어두기
     turned = [(-1, 0), (0, 1), (1, 0), (0, -1)]
@@ -119,7 +119,7 @@ def exam_4_4():
 
 if __name__ == "__main__":
     print("Implementation")
-    # print('exam_4_1: ', exam_4_1())
-    # print('exam_4_1: ', exam_4_2())
-    # print('exam_4_2: ', exam_4_3())
-    # print('exam_4_3: ', exam_4_4())
+    print('exam_4_1: ', exam_4_1())
+    print('exam_4_1: ', exam_4_2())
+    print('exam_4_2: ', exam_4_3())
+    print('exam_4_3: ', exam_4_4())
